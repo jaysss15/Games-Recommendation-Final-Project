@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import pandas
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifie
 
 data = pandas.read_csv("games.csv")
 x = data.drop(columns=["games"])
